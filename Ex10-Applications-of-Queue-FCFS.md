@@ -17,7 +17,8 @@ Developed by: KAVIYA D
 RegisterNumber:  212223040089
 */
 
-int turnaroundtime( int proc[], int n,int burst_time[], int wait_time[], int tat[]) {
+int turnaroundtime( int proc[], int n,int burst_time[], int wait_time[], int tat[])
+ {
 // calculating turnaround time byadding
 // burst_time[i] + wait_time[i] int i;
 for ( i = 0; i < n ; i++)
